@@ -42,7 +42,7 @@ function MyAlbum() {
   }
 
   return (
-    <Router>
+    <Router basename="/react-my-albums">
       <div style={style} className='App'>
         <Route path='/' exact render={(props) => (
           <>
